@@ -1,0 +1,48 @@
+	.textbox{
+		border: thin solid Black;
+		border-width: 1px;
+		font-size: 12px;		
+		}
+	.text{
+		color: Black;
+		font-size: 12px;
+	}
+	.titleText{
+		font-size: 16px;
+		font-weight: 200;
+		height: 26px;
+		font-family: ÷ÚÌו;
+		letter-spacing: 2px;
+	}
+	.errMsg{
+		font-family: ËÎÌו;
+		font-size: 12px;
+		color: Red;
+		height: 20px;
+	}
+	.button{
+		font-family: ËÎÌו;
+		font-size: 12px;
+		margin: 0px;
+		height: 20px;
+		letter-spacing: 2px;
+		border: solid 1px;
+		padding-top: 2px;
+	}
+	.imgage{
+		border: none;
+	}
+	.table{
+		background-color: #eeeeee;
+		font-size: 12px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: Black;
+		padding-bottom: 2px;
+	 	padding-top: 2px;
+		padding-left: 2px;
+		padding-right: 2px;
+		line-height: 20px;
+		text-align: center;
+		margin: 4px;				
+	}

@@ -1,0 +1,138 @@
+
+#displayTable table {
+	border: 1px solid #666;
+	width: 98%;
+	margin:1px auto;
+}
+
+
+#displayTable thead tr {
+	background-color: #fc0;
+}
+
+th.sorted {
+	background-color: orange;
+}
+
+th a,th a:visited {
+	color: black;
+}
+
+th a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+th.sorted a,th.sortable a {
+	background-position: right;
+	display: block;
+	width: 100%;
+}
+
+th.sortable a {
+	background-image: url(../../img/TableIcon/arrow_off.png);
+}
+
+th.order1 a {
+	background-image: url(../../img/TableIcon/arrow_down.png);
+}
+
+th.order2 a {
+	background-image: url(../../img/TableIcon/arrow_up.png);
+}
+
+tr.odd {
+	background-color: #fff
+}
+
+tr.tableRowEven,tr.even {
+	background-color: #fea
+}
+
+div.exportlinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	width: 98%;
+	margin:1px auto;
+	text-align:right;
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display: inline;
+	display: inline-block;
+	cursor: pointer;
+}
+
+span.excel {
+	background-image: url(../../img/TableIcon/ico_file_excel.png);
+}
+
+span.csv {
+	background-image: url(../../img/TableIcon/ico_file_csv.png);
+}
+
+span.xml {
+	background-image: url(../../img/TableIcon/ico_file_xml.png);
+}
+
+span.pdf {
+	background-image: url(../../img/TableIcon/ico_file_pdf.png);
+}
+
+span.rtf {
+	background-image: url(../../img/TableIcon/ico_file_rtf.png);
+}
+
+span.pagebanner {
+	background-color: #eee;
+	border: 1px dotted #999;
+	width: 98%;
+	margin-top: 10px;
+	display: block;
+	border-bottom: none;
+    margin:1px auto;
+    text-align:right;
+}
+
+span.pagelinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	width: 98%;
+    display: block;
+    margin:1px auto;
+    text-align:right;
+}
+
+
+.group-1 {
+    font-weight:bold;
+    padding-bottom:10px;
+    border-top:1px solid black;
+}
+.group-2 {
+    font-style:italic;
+    border-top: 1px solid black;
+
+}
+.subtotal-sum, .grandtotal-sum {
+    font-weight:bold;
+    text-align:right;
+}
+.subtotal-header {
+    padding-bottom: 0px;
+    border-top: 1px solid white;
+}
+.subtotal-label, .grandtotal-label {
+    border-top: 1px solid white;
+    font-weight: bold;
+}
+.grouped-table tr.even {
+    background-color: #fff;
+}
+.grouped-table tr.odd {
+    background-color: #fff;
+}
+.grandtotal-row {
+    border-top: 2px solid black;
+}
